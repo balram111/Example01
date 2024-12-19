@@ -1,0 +1,4984 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+  body{
+    -webkit-text-size-adjust: none;
+	 -moz-text-size-adjust: none;
+	 -ms-text-size-adjust: none;
+	 
+  }
+.container-fluid {
+	font-family:"Times New Roman", Times, serif;
+	text-align:left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%, 100%;
+	margin:auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: calc(100%);
+	width:100%;
+	position:absolute;
+	/*left:calc((100% - 1200px) / 2);*/
+	
+	 
+}
+.header {
+	min-height:180px;
+	float:left;
+	display:inline-block;
+	width:100%;
+	background-image: -webkit-gradient(linear, bottom top, bottom top, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -moz-gradient(linear, bottom top, bottom top, from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -moz-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	background-image: -ms-gradient(linear, bottom top from(rgba(102, 179, 255, 0.37)), to(#fff));
+	background-image: -ms-linear-gradient(bottom, rgba(102, 179, 255, 0.37), #fff);
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5966b3ff',GradientType=0 ); /* IE6-9 */
+	/*-ms-filter: progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#1471da, endColorstr=#1C85FB);*/
+}
+.footer {
+	
+	height:60px;
+	border-top:1px solid gray;
+	float:left;
+	display:inline-block;
+	width:100%;
+	
+}
+.container {
+	height: calc(100% - 245px);
+	display:inline-block;
+	width:100%;
+	float:left;
+}
+.container-left {
+	width:20%;
+	height:100%;
+	float:left;
+ 	-webkit-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	-moz-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	-ms-box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+	box-shadow: 12px 0px 6px -6px rgba(102, 179, 255, 0.37);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='white',GradientType=0 ),
+				progid:DXImageTransform.Microsoft.DropShadow( offX=5, offY=0, color=#5966b3ff);
+			
+			
+			
+
+ 
+}
+.container-right {
+	
+	width:77%;
+	height:99.6%;
+	float:left;
+	background-color:#FFF;
+	margin-left:2%;
+	
+}
+.tick{
+	color:#009933;
+	position:absolute;
+
+	}
+
+.buttons {
+	
+	width:100%;
+}
+.first_button,.second_button,.third_button,.fourth_button,.fifth_button,.sixth_button{
+	width:90%;
+	margin-left:5%;
+	font-family:"Times New Roman", Times, serif;
+}
+.print, .autorun{
+	float:left;
+}
+h2 {
+	font-family:"Times New Roman", Times, serif;
+}
+.headerButton {
+	float:left;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #538fbe;
+	background-image: linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0, rgb(79,142,191)),  color-stop(1, rgb(102,166,214)));
+ 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transform: rotateX(20deg);
+	
+}
+.headerButton:hover {
+	
+	background-image: linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0, rgb(79,142,191)),  color-stop(1, rgb(102,166,214)));
+	cursor:pointer;
+}
+.headerButton:active {
+	
+	background-image: linear-gradient(bottom, #fff 0%, #8CABC5 100%);
+	background-image: -o-linear-gradient(bottom, #fff 0%, #8CABC5 100%);
+	background-image: -moz-linear-gradient(bottom, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-linear-gradient(bottom, #fff 0%, #8CABC5 100%);
+	background-image: -ms-linear-gradient(bottom, #fff 0%, #8CABC5 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0, rgb(88,154,204)),  color-stop(1, rgb(90,150,199)));
+	-webkit-transform: translate(0, 3px) rotateX(20deg);
+	-moz-transform: translate(0, 3px);
+	transform: translate(0, 3px);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+ 
+}
+.print {
+	cursor:pointer;
+}
+
+ .copyright{
+	color:#999;
+	width:40%;
+	float:right;
+	text-align:right;
+}
+
+ 
+/*////////////////////////////////////////////////////////////////////////////////new code in base ////////////////////////////////////////////////////////////*/
+
+
+
+.autorun
+{
+	width:30%;
+	visibility:hidden;
+}
+.print
+{
+	margin-left:35%;
+	width:35%;
+}
+.SpaceBarDiv
+{
+	display:none;
+}
+.FtrTab_Td3{
+	text-align:center;
+	vertical-align:top;
+}
+.FtrTab_Td4
+{
+	text-align:right;
+}
+.SpaceBarButton{
+	
+	
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transform: rotateX(20deg);
+	
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	box-shadow:none;
+	
+	
+	
+	
+}
+.SpaceBarButton:hover {
+
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	cursor:pointer;
+	box-shadow:none;
+}
+.SpaceBarButton:active {
+
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	-webkit-transform: translate(0, 3px) rotateX(20deg);
+	-moz-transform: translate(0, 3px);
+	transform: translate(0, 3px);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	box-shadow:none;
+ 
+}
+
+ 
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+.rd1 span.fdn {border-top: thin solid red;}
+
+
+.section1
+{
+	width:100%;
+	float:left;
+	display:inline-block;
+	font-family:"Times New Roman", Times, serif;
+}
+.section2
+{
+	margin-left:1%;
+	width:17%;
+	float:left;
+	display:inline-block;
+}
+.section3
+{
+	width:80%;
+	margin-left:2%;
+	float:left;
+	display:inline-block;
+	
+}
+.section4
+{
+	width:20%;
+	float:left;
+	display:inline-block;
+	margin-left:1%;
+}
+.new_h
+{
+	width:79%;
+	float:left;
+	display:inline-block;
+}
+.headerButton
+{
+	width:100%;
+	height:40px;
+	
+	
+}
+h3{
+	color:#C00;
+}
+.done1{
+	
+	float:left;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transform: rotateX(20deg);
+	
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	
+	
+	
+	
+}
+.done1:hover {
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	cursor:pointer;
+}
+.done1:active {
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(19, rgb(255, 255, 0)),  color-stop(rgb(255, 153, 0)));
+	background-image: -o-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -moz-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -webkit-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	background-image: -ms-linear-gradient(top, #ffff00 19%, #ff9900 100%);
+	-webkit-transform: translate(0, 3px) rotateX(20deg);
+	-moz-transform: translate(0, 3px);
+	transform: translate(0, 3px);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+ 
+}
+
+.done1{ 
+		width:100%;
+		height:100%;
+}
+
+.wholeSection
+{
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+.FooterTable
+{
+	width:100%;
+}
+
+
+/*Keypad code*/
+
+.KeypadBoundary
+{
+	width:95%;
+}
+.keypadNote
+{
+	float:left;
+	width:100%;
+	border:1px solid black;
+	text-align:center;
+	color:#c00;
+	background-color:#FFF;
+}
+.keypadKeys
+{
+	float:left;
+	width:100%;
+	background-color:#EFEFEF;
+	font-size:0px;
+	border:1px solid black;
+}
+.calc_btn
+	{
+		width: 14%;
+		margin-left: 3%;
+		font-weight:bold;
+		background: #ecf2f8;
+  	    background-color: #EFEFEF;
+      	color: black;
+		border-radius:15%;
+		cursor:pointer;
+	}
+.calc_btn:hover
+{
+	color:#C00;
+	background-image: linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0,  #fff),  color-stop(1,  #EFEFEF));
+}
+.calc_btn:active,.ThreeCommonBtns:active
+{
+	transform: translate(0, 3px);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.ThreeCommonBtns
+{
+	width:23%;
+	margin-left:5%;
+	margin-right:4%;
+	border-radius:9%;
+	cursor:pointer;
+	background:#CDEECC;
+	font-weight:bold;
+}
+.ThreeCommonBtns:hover
+{
+	color:#C00;
+	background-image: linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0,  #fff),  color-stop(1,  #EFEFEF));
+}
+.subtract {
+	
+	display: inline-block;
+	background: #ffb3e6;
+	border:outset;
+}
+.inputAndDoneSpace
+{
+	float:left;
+	width:150%;
+	margin-left:-54%;
+}
+.inputDiv
+{
+	width:100%;
+	float:left;
+	
+}
+.doneDiv
+{
+	width:100%;
+	float:left;
+
+}
+.input
+{
+	width:90%;
+	height:21px;
+ 	text-align: center;
+	font-weight: bold;
+ 	font-family:"Times New Roman", Times, serif;
+ 
+}
+.done1
+{
+	width:100%;
+	margin-left:0%;
+}
+.SolutionRemark
+{
+	float:left;
+	display:inline-block;
+	position:fixed;
+	background-color:#FFF;
+}
+.solutionText
+{
+	float:left;
+	color:#CC0000;
+	font-weight:bold;
+}
+.remark
+{
+	float:left;
+	width:35%;
+	padding-top:1%;
+}
+
+.incorrect
+{
+	color:#F00;
+	font-weight:bold;
+}
+.correct
+{
+	color:#007D00;
+	font-weight:bold;
+}
+.input
+{
+	font-family:"Times New Roman", Times, serif;
+}
+.red_color{
+	color:#C00;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+border: 4px solid #d9d9d9;
+box-shadow: 2px 2px 2px #cccccc;
+border-style:outset;
+/*width: 20%;
+height: 20%;*/
+text-align:center;
+z-index:6;
+background:#055c88;
+position:absolute;
+}
+.enterText{
+	color:#FFF;
+}
+.Cross_PB,.Cross_BM {
+	float:right;
+	cursor:pointer;
+	width:100%;
+}
+.incorrect,.correct{
+
+    font-family: arial;
+}
+.remark,.incorrect,.correct{display:none;}
+.InptDnTd1{
+	width:75%;
+}
+.InptDnTd2{
+	width:25%;
+}
+.SpaceBarDiv{
+	/*display:none;*/
+}
+.InputAndDoneTbl{
+	width:65%;
+	float:right;
+}
+.Cross_Img{
+	width:12%;
+	float:right;
+}
+.ClickToAnsDiv{
+	float:right;
+	text-decoration:underline;
+	margin-right: 4%;
+}
+.container{
+	overflow-y:auto;
+	height:98%
+	
+}
+.StpBtnCmn{
+	 
+ 
+	background-color:#D5F3FD;
+	text-align:center;
+	border:1px solid #2FCEF0;
+	cursor:default;
+	color:#000;
+	font-weight:bold;
+	float:left;
+	display:inline-block;
+ 	cursor:default;
+	
+}
+.StpBtnCmn:hover{
+	cursor:pointer;
+	
+}
+.steps
+{
+	
+	display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+	
+	
+.warning {
+	text-align:center;
+	display:none;
+}
+	
+	
+	/*<-- landscape-->*/
+
+
+@media (min-width: 450px) and (max-width: 530px)
+{
+	.container-fluid
+	{
+		width:450px;
+		left:calc((100% - 450px) / 2);
+		font-size:10px;
+	}
+	.SolutionRemark
+	{
+		width:450px;
+		left:calc((100% - 450px) / 2);
+	}
+	.section1
+	{
+		font-size:8px;
+	}
+	.section4
+	{
+ 		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:22px;
+		font-size:8px;
+	}
+	.header 
+	{
+		min-height:68px;
+	}
+	.footer 
+	{
+		height:12px;
+		font-size:7px;
+	}
+	.solution 
+	{
+		margin-top:14px;
+	}
+	.KeypadBoundary
+	{
+		min-height:48px;
+		margin-top:1px;
+	}
+	.keypadNote
+	{
+		font-size:7px;
+	}
+	.calc_btn
+	{
+		height: 10px;
+		margin-top: 1px;
+		font-size: 7px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:1px;
+	}
+	.input
+	{
+		height:12px;
+	}
+	.done1
+	{
+		height:16px;
+		font-size:8px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 10px;
+		font-size:6px;
+	}
+	.wholeSection
+	{
+		margin-top:2px;
+	}
+	.solution
+	{
+		margin-top:4px;
+	}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:6px;
+	
+}
+/*.Cross_Img{
+	width:12%;
+	float:right;
+}*/
+ 
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 20%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+
+.enterText {
+    margin-top: 6%;
+    width: 75%;
+    margin-left: 12%;
+}
+
+
+.SpaceBarButton{
+	
+    width: 59%;
+    height: 12px;
+    font-size: 6px;
+	
+	}
+.steps {
+    height: 21px;
+    padding-top: 0.5%;
+}
+	
+}
+@media (min-width: 531px) and (max-width: 610px)
+{
+	.container-fluid
+	{
+		width:531px;
+		left:calc((100% - 531px) / 2);
+		font-size:10px;
+	}
+	.SolutionRemark
+	{
+		width:531px;
+		left:calc((100% - 531px) / 2);
+	}
+	.section1
+	{
+		font-size:8px;
+	}
+	.section4
+	{
+		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:22px;
+		font-size:8px;
+	}
+	.header 
+	{
+		min-height:68px;
+	}
+	.footer 
+	{
+		height:12px;
+		font-size:7px;
+	}
+	.solution 
+	{
+		margin-top:14px;
+	}
+	.KeypadBoundary
+	{
+		min-height:48px;
+		margin-top:1px;
+	}
+	.keypadNote
+	{
+		font-size:7px;
+	}
+	.calc_btn
+	{
+		height: 10px;
+		margin-top: 1px;
+		font-size: 7px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:1px;
+	}
+	.input
+	{
+		height:12px;
+	}
+	.done1
+	{
+		height:16px;
+		font-size:8px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 10px;
+		font-size:7px;
+	}
+	.wholeSection
+	{
+		margin-top:2px;
+	}
+	.solution
+	{
+		margin-top:4px;
+	}
+	.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:6px;
+	
+}
+.Cross_Img{
+	width:12%;
+	float:right;
+}
+ 
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 20%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+
+.enterText {
+    margin-top: 6%;
+    width: 75%;
+    margin-left: 12%;
+}
+
+.SpaceBarButton{
+	
+    width: 52%;
+    height: 10px;
+    font-size: 6px;
+	
+	}
+.steps {
+    height: 28px;
+    padding-top: 0.5%;
+}
+	
+}
+@media (min-width: 611px) and (max-width: 690px)
+{
+	.container-fluid
+	{
+		width:611px;
+		left:calc((100% - 611px) / 2);
+		font-size:12px;
+	}
+	.SolutionRemark
+	{
+		width:611px;
+		left:calc((100% - 611px) / 2);
+	}
+	.section1
+	{
+		font-size:10px;
+	}
+	.section4
+	{
+		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:22px;
+		font-size:10px;
+	}
+	.header 
+	{
+		min-height:90px;
+	}
+	.footer 
+	{
+		height:20px;
+		font-size:8px;
+	}
+	.solution 
+	{
+		margin-top:14px;
+	}
+	.KeypadBoundary
+	{
+		min-height:65px;
+		margin-top:1px;
+	}
+	.keypadNote
+	{
+		font-size:8px;
+	}
+	.calc_btn
+	{
+		height: 12px;
+		margin-top: 2px;
+		font-size: 8px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:1px;
+	}
+	.input
+	{
+		height:14px;
+	}
+	.done1
+	{
+		height:18px;
+		font-size:8px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 15px;
+		font-size:8px;
+	}
+	.wholeSection
+	{
+		margin-top:3px;
+	}
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 20%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+
+.SpaceBarButton{
+	
+    width: 62%;
+    height: 20px;
+    font-size: 10px;	
+}
+.steps {
+    height: 28px;
+    padding-top: 0.5%;
+}
+	
+}
+@media (min-width: 691px) and (max-width: 770px)
+{
+	.container-fluid
+	{
+		width:691px;
+		left:calc((100% - 691px) / 2);
+		font-size:15px;
+	}
+	.SolutionRemark
+	{
+		width:691px;
+		left:calc((100% - 691px) / 2);
+	}
+	.section1
+	{
+		font-size:13px;
+	}
+	.section4
+	{
+		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:30px;
+		font-size:13px;
+	}
+	.header 
+	{
+		min-height:125px;
+	}
+	.footer 
+	{
+		height:25px;
+		font-size:12px;
+	}
+	.solution 
+	{
+		margin-top:14px;
+	}
+	.KeypadBoundary
+	{
+		min-height:90px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:10px;
+	}
+	.calc_btn
+	{
+		height: 15px;
+		margin-top: 5px;
+		font-size: 9px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:5px;
+	}
+	.input
+	{
+		height:20px;
+	}
+	.done1
+	{
+		height:24px;
+		font-size:10px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 15px;
+		font-size:9px;
+	}
+	.wholeSection
+	{
+		margin-top:3px;
+	}
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 20%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+
+.SpaceBarButton{
+	
+    width: 62%;
+    height: 20px;
+    font-size: 10px;	
+}
+.steps {
+    height: 28px;
+    padding-top: 0.5%;
+}
+
+}
+@media (min-width: 771px) and (max-width: 850px)
+{
+	.container-fluid
+	{
+		width:771px;
+		left:calc((100% - 771px) / 2);
+		font-size:18px;
+	}
+	.SolutionRemark
+	{
+		width:771px;
+		left:calc((100% - 771px) / 2);
+	}
+	.section1
+	{
+		font-size:13px;
+	}
+	.section4
+	{
+		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:30px;
+		font-size:13px;
+	}
+	.header 
+	{
+		min-height:125px;
+	}
+	.footer 
+	{
+		height:25px;
+		font-size:12px;
+	}
+	.solution 
+	{
+		margin-top:14px;
+	}
+	.KeypadBoundary
+	{
+		min-height:90px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:12px;
+	}
+	.calc_btn
+	{
+		height: 15px;
+		margin-top: 5px;
+		font-size: 10px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:5px;
+	}
+	.input
+	{
+		height:20px;
+	}
+	.done1
+	{
+		height:24px;
+		font-size:10px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 15px;
+		font-size:10px;
+	}
+	.wholeSection
+	{
+		margin-top:3px;
+	}
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 20%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+.SpaceBarButton{
+	
+    width: 68%;
+    height: 22px;
+    font-size: 12px;
+	
+}
+.steps {
+    height: 34px;
+    padding-top: 0.5%;
+}	
+	
+}
+@media (min-width: 851px) and (max-width: 930px)
+{
+	.container-fluid
+	{
+		width:851px;
+		left:calc((100% - 851px) / 2);
+		font-size:18px;
+	}
+	.SolutionRemark
+	{
+		width:851px;
+		left:calc((100% - 851px) / 2);
+	}
+	.section1
+	{
+		font-size:15px;
+	}
+	.section4
+	{
+		width:22%;
+	}
+
+	.new_h
+	{
+		width:77%;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:15px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:30px;
+		font-size:12px;
+	}
+	.solution 
+	{
+		margin-top:19px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:12px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 11px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:23px;
+	}
+	.done1
+	{
+		height:27px;
+		font-size:11px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:11px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 65px;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+.SpaceBarButton{
+	
+         width: 68%;
+    height: 26px;
+    font-size: 14px;
+	
+}
+.steps {
+    height: 34px;
+    padding-top: 0.5%;
+}
+	
+}
+@media (min-width: 931px) and (max-width: 1010px)
+{
+	.container-fluid
+	{
+		width:931px;
+		left:calc((100% - 931px) / 2);
+		font-size:20px;
+	}
+	.SolutionRemark
+	{
+		width:931px;
+		left:calc((100% - 931px) / 2);
+	}
+	.section1
+	{
+		font-size:16px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:16px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:35px;
+		font-size:12px;
+	}
+	.solution 
+	{
+		margin-top:19px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:13px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 11px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:24px;
+	}
+	.done1
+	{
+		height:28px;
+		font-size:12px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:11px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 70px;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}	
+.SpaceBarButton{
+	
+       width: 70%;
+    height: 28px;
+    font-size: 16px;
+	
+}
+.steps {
+    height: 38px;
+    padding-top: 0.5%;
+}
+
+
+}
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+	.container-fluid
+	{
+		width:1011px;
+		left:calc((100% - 1011px) / 2);
+		font-size:21px;
+	}
+	.SolutionRemark
+	{
+		width:1011px;
+		left:calc((100% - 1011px) / 2);
+	}
+	.section1
+	{
+		font-size:16px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:16px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:35px;
+		font-size:12px;
+	}
+	.solution 
+	{
+		margin-top:19px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:13px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 11px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:24px;
+	}
+	.done1
+	{
+		height:28px;
+		font-size:12px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:11px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+.enterText {
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 75px;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+.SpaceBarButton{
+	
+    width: 80%;
+    height: 32px;
+	font-size: 20px;
+	
+}
+.steps {
+    height: 38px;
+    padding-top: 0.5%;
+}
+
+}
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+	.container-fluid
+	{
+		width:1101px;
+		left:calc((100% - 1101px) / 2);
+		font-size:22px;
+	}
+	.SolutionRemark
+	{
+		width:1101px;
+		left:calc((100% - 1101px) / 2);
+	}
+	.section1
+	{
+		font-size:18px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:18px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:40px;
+		font-size:15px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:16px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 12px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:26px;
+	}
+	.done1
+	{
+		height:30px;
+		font-size:13px;
+	}
+	.ThreeCommonBtns
+	{
+		height:22px;
+		font-size:12px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+	
+.enterText{
+	
+    margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+	
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	
+width: 16%;
+height: 75px;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+
+}
+.arrow1{
+	width:100%;
+}
+.arrow{
+	
+	width:5%;
+	
+}
+.bold1{
+	
+	text-align:center;
+}
+.opac{
+	
+	visibility:hidden;
+}
+
+.SpaceBarButton{
+	
+    width: 80%;
+    height: 32px;
+	font-size: 20px;
+	
+}
+.steps {
+    height: 38px;
+    padding-top: 0.5%;
+}
+
+
+
+
+}
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+	.container-fluid
+	{
+		width:1286px;
+		left:calc((100% - 1286px) / 2);
+		font-size:24px;
+	}
+	.SolutionRemark
+	{
+		width:1286px;
+		left:calc((100% - 1286px) / 2);
+	}
+	.section1
+	{
+		font-size:18px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:18px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:40px;
+		font-size:16px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:16px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 12px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:14px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:12px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	.SpaceBarDiv{
+		width:65%;
+		height: 35px;
+	}
+	.SpaceBarButton{
+	height:100%;
+	width:100%;
+	margin-left:0%;
+	font-size:20px;
+	padding-left: 1%;
+    padding-right: 1%;
+	white-space: nowrap;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+    margin-left: 40%;
+    margin-top: 5%;
+ }
+ 
+.Cross_Img{
+	width:10%;
+	float:right;
+	padding:3px 3px 0px 0px;
+}
+.incorrect,.correct{
+	font-size: 25px;
+}
+.enterText {
+	color:#FFF;
+	font-size:28px;
+	width:90%;
+	margin-top:30px;
+     margin-top: 7%;
+    width: 85%;
+    margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+height: 95px;
+
+}
+ .steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 95%;
+    height: 32px;
+	font-size: 20px;
+}
+
+
+
+
+}
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	.container-fluid
+	{
+		width:1401px;
+		left:calc((100% - 1401px) / 2);
+		font-size:24px;
+	}
+	.SolutionRemark
+	{
+		width:1401px;
+		left:calc((100% - 1401px) / 2);
+	}
+	.section1
+	{
+		font-size:18px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:18px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:40px;
+		font-size:16px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:16px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 14px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:14px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:14px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 75%;
+    height: 32px;
+	font-size: 22px;
+}
+	
+	
+}
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	.container-fluid
+	{
+		width:1551px;
+		left:calc((100% - 1551px) / 2);
+		font-size:25px;
+	}
+	.SolutionRemark
+	{
+		width:1551px;
+		left:calc((100% - 1551px) / 2);
+	}
+	.section1
+	{
+		font-size:20px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:20px;
+	}
+	.header 
+	{
+		min-height:170px;
+	}
+	.footer 
+	{
+		height:40px;
+		font-size:18px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:130px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:16px;
+	}
+	.calc_btn
+	{
+		height: 22px;
+		margin-top: 8px;
+		font-size: 14px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:15px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 22px;
+		font-size:14px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+		
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 75%;
+    height: 32px;
+	font-size: 23px;
+}
+	.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+
+width:10%;
+height:75px;
+
+}
+	
+}	
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	.container-fluid
+	{
+		width:1701px;
+		left:calc((100% - 1701px) / 2);
+		font-size:28px;
+	}
+	.SolutionRemark
+	{
+		width:1701px;
+		left:calc((100% - 1701px) / 2);
+	}
+	.section1
+	{
+		font-size:22px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:22px;
+	}
+	.header 
+	{
+		min-height:185px;
+	}
+	.footer 
+	{
+		height:45px;
+		font-size:18px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:140px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:18px;
+	}
+	.calc_btn
+	{
+		height: 24px;
+		margin-top: 8px;
+		font-size: 14px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:15px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 24px;
+		font-size:14px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+			
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 60%;
+    height: 32px;
+	font-size: 24px;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+
+width:10%;
+height:75px;
+
+}
+	
+}
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	.container-fluid
+	{
+		width:1851px;
+		left:calc((100% - 1851px) / 2);
+		font-size:28px;
+	}
+	.SolutionRemark
+	{
+		width:1851px;
+		left:calc((100% - 1851px) / 2);
+	}
+	.section1
+	{
+		font-size:22px;
+	}
+	.headerButton
+	{
+		height:40px;
+		font-size:22px;
+	}
+	.header 
+	{
+		min-height:185px;
+	}
+	.footer 
+	{
+		height:50px;
+		font-size:18px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:140px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:18px;
+	}
+	.calc_btn
+	{
+		height: 24px;
+		margin-top: 8px;
+		font-size: 18px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:14px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 24px;
+		font-size:14px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+		
+			
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 60%;
+    height: 32px;
+	font-size: 24px;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+
+width:10%;
+height:75px;
+
+}
+	
+}
+@media (min-width: 2001px)
+{
+	.container-fluid
+	{
+		width:2001px;
+		left:calc((100% - 2001px) / 2);
+		font-size:30px;
+	}
+	.SolutionRemark
+	{
+		width:2001px;
+		left:calc((100% - 2001px) / 2);
+	}
+	.section1
+	{
+		font-size:22px;
+	}
+	.headerButton
+	{
+		height:45px;
+		font-size:22px;
+	}
+	.header 
+	{
+		min-height:195px;
+	}
+	.footer 
+	{
+		height:60px;
+		font-size:18px;
+	}
+	.solution 
+	{
+		margin-top:20px;
+	}
+	.KeypadBoundary
+	{
+		min-height:150px;
+		margin-top:5px;
+	}
+	.keypadNote
+	{
+		font-size:18px;
+	}
+	.calc_btn
+	{
+		height: 28px;
+		margin-top: 8px;
+		font-size: 18px;
+	}
+	.keypadKeys
+	{
+		padding-bottom:8px;
+	}
+	.input
+	{
+		height:28px;
+	}
+	.done1
+	{
+		height:32px;
+		font-size:18px;
+	}
+	.ThreeCommonBtns
+	{
+		height: 28px;
+		font-size:18px;
+	}
+	.wholeSection
+	{
+		margin-top:5px;
+	}
+	
+			
+			
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+	 display: inline-block;
+    width: 91%;
+	background:#FFF;
+}
+.step1, .step2, .step3, .step4, .step5{
+    width: 10%;
+    margin-left: 7%;
+   }
+.SpaceBarButton{
+    width: 60%;
+    height: 32px;
+	font-size: 24px;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+
+width:10%;
+height:75px;
+
+}
+	
+	
+}
+
+ 					/*<-- Portrait-->*/
+
+
+
+@media (min-width: 320px) and (max-width: 400px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:320px;
+		left:calc((100% - 320px) / 2);
+		font-size: 14px;
+	}
+	.header {
+    min-height: 110px;
+	}
+	.headerButton
+	{
+		height:20px;
+		font-size:9px;
+	}
+	h3{
+		font-size:10px;
+		 
+	}
+	.keypadNote{
+		font-size:6px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.section4{ 
+	width:20%;
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:20px;
+}
+.print{
+	margin-left:0px;
+}
+tr,td{/*border:1px solid #000;*/}
+.Copyright{
+	font-size: 8px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 15px;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:100%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:8px;
+	
+}
+.inputAndDoneSpace{
+	padding-top:2%;
+}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 22px;
+}
+.calc_btn {
+	margin-top:2%;	
+	height: 18px;
+	font-size: 9px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 4px;
+}
+.keypadKeys {
+    height: 68px;
+}
+.section4 {
+    width: 24%;
+    float: left;
+    display: inline-block;
+	display:none;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ .done1{
+	 font-size:8px;
+ }
+.Cross_Img{
+	width:12%;
+	float:right;
+}
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 50px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:14px;
+}
+.keypadKeysDevice{
+	height:100px;
+}
+.KeyPadKeyDevice{
+	height:25px;
+	font-size:14px;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.steps{
+	width:75%;
+}
+
+
+
+
+}
+@media (min-width: 401px) and (max-width: 480px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:401px;
+		left:calc((100% - 401px) / 2);
+		font-size: 16px;
+	}
+	
+	.header {
+    min-height: 110px;
+	}
+	.headerButton
+	{
+		height:20px;
+		font-size:9px;
+		width:90%;
+	}
+	h3{
+		font-size:12px;
+		 
+	}
+	.keypadNote{
+		font-size:7px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+ 
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:20px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 9px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 17px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:9px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	height:8%;
+	margin-left: 35%;
+    margin-top: 10%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;
+}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 22px;
+}
+.calc_btn {
+	margin-top:2%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 5px;
+}
+.keypadKeys {
+    height: 68px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	 
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ .done1{
+	 font-size:8px;
+ }
+ 
+ .enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 50px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+
+.keypadNoteDevice{
+	font-size:14px;
+}
+.keypadKeysDevice{
+	height:106px;
+}
+.KeyPadKeyDevice{
+	height:25px;
+	font-size:14px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+ 
+ 
+}
+
+@media (min-width: 481px) and (max-width: 560px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:481px;
+		left:calc((100% - 481px) / 2);
+		font-size: 17px;
+	}
+	
+	.headerButton
+	{
+		height:40px;
+		font-size:20px;
+	}
+	.header {
+     min-height: 110px;
+	}
+	.headerButton
+	{
+		height:20px;
+		font-size:11px;
+		width:90%;
+	}
+	h3{
+		font-size:13px;
+		 
+	}
+	.keypadNote{
+		font-size:9px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:20px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 9px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 17px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:10px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	height:8%;
+	margin-left: 35%;
+    margin-top: 10%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+}
+.Cross_Img{
+	width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;
+}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 22px;
+}
+.calc_btn {
+	margin-top:2%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 7px;
+}
+.keypadKeys {
+    height: 68px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	 
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ 
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 60px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:14px;
+}
+.keypadKeysDevice{
+	height:112px;
+}
+.KeyPadKeyDevice{
+	height:25px;
+	font-size:18px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 18px;
+}
+.done1 {
+    height: 22px;
+    font-size: 12px;
+}
+
+}
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:561px;
+		left:calc((100% - 561px) / 2);
+		font-size: 18px;
+	}
+	
+  	.header {
+     min-height: 115px;
+	}
+	.headerButton
+	{
+		height:24px;
+		font-size:13px;
+		width:90%;
+	}
+	h3{
+		font-size:15px;
+		 
+	}
+	.keypadNote{
+		font-size:9px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:30px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 12px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 20px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:11px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	height:8%;
+	margin-left: 35%;
+    margin-top: 10%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;
+}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 22px;
+}
+.calc_btn {
+	margin-top:2%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 8px;
+}
+.keypadKeys {
+    height: 68px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	 
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ 
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 70px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:18px;
+}
+.keypadKeysDevice{
+	height:112px;
+}
+.KeyPadKeyDevice{
+	height:25px;
+	font-size:18px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 20px;
+}
+.done1 {
+    height: 24px;
+    font-size: 14px;
+}
+
+
+}
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:641px;
+		left:calc((100% - 641px) / 2);
+		font-size: 18px;
+	}
+	
+  	.header {
+     min-height: 115px;
+	}
+	.headerButton
+	{
+		height:24px;
+		font-size:13px;
+		width:90%;
+	}
+	h3{
+		font-size:15px;
+		 
+	}
+	.keypadNote{
+		font-size:11px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:25px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 11px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 24px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:13px;
+	float:left;
+	
+}
+
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	height:8%;
+	margin-left: 35%;
+    margin-top: 10%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 22px;
+}
+.calc_btn {
+	margin-top:2%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 8px;
+}
+.keypadKeys {
+    height: 68px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	
+ }
+
+ .SolutionRemark{
+	 width:95%;
+ }
+
+ 
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 70px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:18px;
+}
+.keypadKeysDevice{
+	height:130px;
+}
+.KeyPadKeyDevice {
+    height: 30px;
+    font-size: 20px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 20px;
+}
+.done1 {
+    height: 24px;
+    font-size: 14px;
+}
+
+
+}
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:721px;
+		left:calc((100% - 721px) / 2);
+		font-size: 21px;
+	}
+	
+  	.header {
+     min-height: 130px;
+	}
+	.headerButton
+	{
+		height: 28px;
+		font-size: 15px;
+		width: 90%;
+	}
+	h3{
+		font-size:18px;
+		 
+	}
+	.keypadNote{
+		font-size:11px;
+	}
+	.wholeSection {
+    margin-top: 1%;
+	}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:28px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 11px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 26px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:14px;
+	float:left;
+	
+}
+
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	height:10%;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 25px;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+.inputAndDoneSpace {
+    float: left;
+    width: 210%;
+    margin-left: -114%;
+	padding-top:2%;
+}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 10px;
+}
+.keypadKeys {
+    height: 75px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ 
+ }
+
+ .SolutionRemark{
+	 width:95%;
+ }
+
+ 
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 85px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:21px;
+}
+.keypadKeysDevice{
+	height:160px;
+}
+.KeyPadKeyDevice {
+    height: 30px;
+    font-size: 20px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 20px;
+}
+.done1 {
+    height: 24px;
+    font-size: 14px;
+}
+
+
+
+
+}
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:801px;
+		left:calc((100% - 801px) / 2);
+		font-size: 21px;
+	}
+	
+  	.header {
+     min-height: 130px;
+	}
+	.headerButton
+	{
+		height: 28px;
+		font-size: 15px;
+		width: 90%;
+	}
+	h3{
+		font-size:18px;
+		 
+	}
+	.keypadNote{
+		font-size:11px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:28px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 13px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 26px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:17px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:22%;
+	height:10%;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 28px;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 18px;
+	font-size: 11px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 10px;
+}
+.keypadKeys {
+    height: 75px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	display:none;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+
+ 
+.enterText {
+	margin-top: 7%;
+	width: 85%;
+	margin-left: 3%;
+}	
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+	 width: 25%;
+	height: 85px;
+	border: 2px solid #d9d9d9;
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.keypadNoteDevice{
+	font-size:21px;
+}
+.keypadKeysDevice{
+	height:160px;
+}
+.KeyPadKeyDevice {
+    height: 30px;
+    font-size: 20px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 20px;
+}
+.done1 {
+    height: 24px;
+    font-size: 14px;
+}
+
+
+ 
+}
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:881px;
+		left:calc((100% - 881px) / 2);
+		font-size: 21px;
+	}
+	
+  	.header {
+     min-height: 130px;
+	}
+	.headerButton
+	{
+		height: 28px;
+		font-size: 15px;
+		width: 90%;
+	}
+	h3{
+		font-size:18px;
+		 
+	}
+	.keypadNote{
+		font-size:11px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:28px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 13px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 26px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:17px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:22%;
+	height:10%;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 28px;
+}
+.Cross_Img{
+	    width: 12%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 18px;
+	font-size: 13px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 12px;
+}
+.keypadKeys {
+    height: 80px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+
+ }
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:961px;
+		left:calc((100% - 961px) / 2);
+		font-size: 24px;
+	}
+	
+  	.header {
+     min-height: 135px;
+	}
+	.headerButton
+	{
+		    height: 30px;
+			font-size: 17px;
+			width: 90%;
+	}
+	h3{
+		font-size:20px;
+		 
+	}
+	.keypadNote{
+		font-size:14px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:32px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 16px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 30px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:19px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:22%;
+	height:104px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 28px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%
+	
+}
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 25px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 18px;
+	font-size: 13px;
+}
+.ThreeCommonBtns{
+ 	height: 18px;
+    font-size: 12px;
+}
+.keypadKeys {
+    height: 80px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ 
+ 
+ .keypadNoteDevice{
+	font-size:24px;
+}
+.keypadKeysDevice{
+	height:190px;
+}
+.KeyPadKeyDevice {
+    height: 34px;
+    font-size: 24px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 30px;
+}
+.done1 {
+    height: 32px;
+    font-size: 22px;
+}
+
+
+ 
+ 
+}
+
+@media (min-width: 1041px) and (max-width: 1100px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1041px;
+		left:calc((100% - 1041px) / 2);
+		font-size: 28px;
+	}
+	
+  	.header {
+     min-height: 155px;
+	}
+	.headerButton
+	{
+		height: 34px;
+		font-size: 21px;
+		width: 90%;
+	}
+	h3{
+		font-size:25px;
+		 
+	}
+	.keypadNote{
+		font-size:16px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:34px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 18px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 34px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:21px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:120px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 36px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 80%;
+    float: left;
+    height: 28px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 22px;
+	font-size: 16px;
+}
+.ThreeCommonBtns{
+ height: 21px;
+    font-size: 15px;
+}
+.keypadKeys {
+    height: 92px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	 
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+.input{
+	
+ height:25px;
+}
+.done1{
+	font-size:16px
+	}
+ 
+ .keypadNoteDevice{
+	font-size:24px;
+}
+.keypadKeysDevice{
+	height:190px;
+}
+.KeyPadKeyDevice {
+    height: 34px;
+    font-size: 24px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 34px;
+}
+.done1 {
+    height: 36px;
+    font-size: 22px;
+}
+
+
+
+}
+@media (min-width: 1101px) and (max-width: 1285px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1101px;
+		left:calc((100% - 1101px) / 2);
+		font-size: 30px;
+	}
+	
+  	.header {
+     min-height: 165px;
+	}
+	.headerButton
+	{
+		height: 40px;
+		font-size: 23px;
+		width: 90%;
+	}
+	h3{
+		font-size:25px;
+		 
+	}
+	.keypadNote{
+		font-size:16px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+	}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+	}
+ 
+ .footer{
+		height:40px;
+	}
+	.print{
+		margin-left:0px;
+	}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 19px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 36px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:24px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:125px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 36px;
+}
+.Cross_Img{
+	width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 35px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 22px;
+	font-size: 16px;
+}
+.ThreeCommonBtns{
+ height: 21px;
+    font-size: 15px;
+}
+.keypadKeys {
+    height: 96px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+	display:none;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+.input{
+	
+ height:25px;
+}
+.done1{
+	font-size:16px
+	}
+ 
+ .keypadNoteDevice{
+	font-size:30px;
+}
+.keypadKeysDevice{
+	height:200px;
+}
+.KeyPadKeyDevice {
+    height: 34px;
+    font-size: 24px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 34px;
+}
+.done1 {
+    height: 36px;
+    font-size: 22px;
+}
+.arrow1{
+	width:100%;
+}
+.arrow{
+	width:5%;
+}
+.bold1{
+	text-align:center;
+}
+.opac{
+	visibility:hidden;
+}
+.steps
+{
+	height:45px;
+	padding-top: 0.5%;
+}
+.step1, .step2, .step3, .step4, .step5 {
+    width: 10%;
+    margin-left: 7%;}
+
+.step1,.step2,.step3,.step4,.step5{
+	width:8%;
+	margin-left:9%;
+	background-color:#D5F3FD;
+	text-align:center;
+	border:1px solid #2FCEF0;
+	cursor:default;
+	color:#C00;
+	font-weight:bold;
+	float:left;
+	display:inline-block;
+ 	cursor:default;
+}
+
+
+}
+@media (min-width: 1286px) and (max-width: 1400px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1286px;
+		left:calc((100% - 1286px) / 2);
+		font-size: 32px;
+	}
+	
+  	.header {
+     min-height: 185px;
+	}
+	.headerButton
+	{
+		height: 40px;
+		font-size: 23px;
+		width: 90%;
+	}
+	h3{
+		font-size:28px;
+		 
+	}
+	.keypadNote{
+		font-size:16px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:40px;
+}
+.print{
+	margin-left:0px;
+}
+
+tr,td{/*border:1px solid #000;*/}
+
+.Copyright{
+	font-size: 22px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 40px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:26px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:125px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 42px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 35px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 25px;
+	font-size: 18px;
+}
+.ThreeCommonBtns{
+ height: 25px;
+    font-size: 18px;
+}
+.keypadKeys {
+    height: 112px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ 
+ 
+ .keypadNoteDevice{
+	font-size:32px;
+}
+.keypadKeysDevice{
+	height:228px;
+}
+.KeyPadKeyDevice {
+    height: 38px;
+    font-size: 28px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 42px;
+}
+.done1 {
+    height: 42px;
+    font-size: 22px;
+	width:80%;
+}
+	
+
+}
+@media (min-width: 1401px) and (max-width: 1550px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1401px;
+		left:calc((100% - 1401px) / 2);
+		font-size: 36px;
+	}
+	
+  	.header {
+     min-height: 215px;
+	}
+	.headerButton
+	{
+		height: 46px;
+		font-size: 26px;
+		width: 90%;
+	}
+	h3{
+		font-size:30px;
+		 
+	}
+	.keypadNote{
+		font-size:20px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:45px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 24px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 45px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:30px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:150px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 46px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 40px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 30px;
+	font-size: 22px;
+}
+.ThreeCommonBtns{
+ height: 30px;
+    font-size: 18px;
+}
+.keypadKeys {
+    height: 131px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ 
+ .keypadNoteDevice{
+	font-size:36px;
+}
+.keypadKeysDevice{
+	height:250px;
+}
+.KeyPadKeyDevice {
+    height: 42px;
+    font-size: 30px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 50px;
+}
+.done1 {
+    height: 50px;
+    font-size: 22px;
+	width:80%;
+}
+
+
+}
+@media (min-width: 1551px) and (max-width: 1700px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1551px;
+		left:calc((100% - 1551px) / 2);
+		font-size: 42px;
+	}
+	
+  	.header {
+     min-height: 250px;
+	}
+	
+	.headerButton
+	{
+		height: 60px;
+		font-size: 34px;
+		width: 90%;
+	}
+	h3{
+		font-size:36px;
+		 
+	}
+	.keypadNote{
+		font-size:26px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:45px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 28px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 45px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:32px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:190px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 56px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 45px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 36px;
+	font-size: 26px;
+}
+.ThreeCommonBtns{
+ height: 36px;
+    font-size: 22px;
+}
+.keypadKeys {
+    height: 154px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+
+ 
+ .keypadNoteDevice{
+	font-size:42px;
+}
+.keypadKeysDevice{
+	height:280px;
+}
+.KeyPadKeyDevice {
+    height: 46px;
+    font-size: 34px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 56px;
+}
+.done1 {
+    height: 54px;
+    font-size: 24px;
+	width:80%;
+}
+
+
+
+}	
+@media (min-width: 1701px) and (max-width: 1850px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1701px;
+		left:calc((100% - 1701px) / 2);
+		font-size: 50px;
+	}
+	
+  	.header {
+     min-height: 275px;
+	}
+	
+	.headerButton
+	{
+		height: 63px;
+		font-size: 38px;
+		width: 90%;
+	}
+	h3{
+		font-size:40px;
+		 
+	}
+	.keypadNote{
+		font-size:30px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:75px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 30px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 60px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:38px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:190px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 56px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 55px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 40px;
+	font-size: 30px;
+}
+.ThreeCommonBtns{
+ height: 40px;
+    font-size: 26px;
+}
+.keypadKeys {
+    height: 166px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:95%;
+ }
+ .keypadNoteDevice{
+	font-size:50px;
+}
+.keypadKeysDevice {
+    height: 324px;
+}
+.KeyPadKeyDevice {
+    height: 56px;
+    font-size: 38px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 65px;
+}
+.done1 {
+    height: 60px;
+    font-size: 28px;
+	width:80%;
+}
+
+
+}
+@media (min-width: 1851px) and (max-width: 2000px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1851px;
+		left:calc((100% - 1851px) / 2);
+		font-size: 58px;
+	}
+	
+  	.header {
+     min-height: 310px;
+	}
+	
+	.headerButton
+	{
+		height: 63px;
+		font-size: 38px;
+		width: 90%;
+	}
+	h3{
+		font-size:50px;
+		 
+	}
+	.keypadNote{
+		font-size:32px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:85px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 32px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 74px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:42px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:190px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 56px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 58px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 46px;
+	font-size: 36px;
+}
+.ThreeCommonBtns{
+ height: 46px;
+ font-size: 30px;
+}
+.keypadKeys {
+    height: 194px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:90%;
+ }
+
+ .keypadNoteDevice{
+	font-size:58px;
+}
+.keypadKeysDevice {
+    height: 350px;
+}
+.KeyPadKeyDevice {
+    height: 64px;
+    font-size: 45px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 74px;
+}
+.done1 {
+    height: 70px;
+    font-size: 36px;
+	width:80%;
+}
+
+
+
+}
+@media (min-width: 2001px)  and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:2001px;
+		left:calc((100% - 2001px) / 2);
+		font-size: 62px;
+	}
+	
+  	.header {
+     min-height: 350px;
+	}
+	
+	.headerButton
+	{
+		    height: 76px;
+    font-size: 45px;
+    width: 90%;
+	}
+	h3{
+		font-size:54px;
+		 
+	}
+	.keypadNote{
+		font-size:34px;
+	}
+	.wholeSection {
+    margin-top: 2%;
+}
+	.section2{
+		width:25%;
+		
+	}
+	.section3{
+		width:72%;
+		
+	}
+	.new_h {
+    width: 79%;
+	}
+	.solution {
+    margin-top: 20px;
+}
+ 
+ .footer{
+		height:95px;
+}
+.print{
+	margin-left:0px;
+}
+	tr,td{/*border:1px solid #000;*/
+}
+.Copyright{
+	font-size: 36px;
+	text-align: center;
+}
+.SpaceBarDiv{
+	width:100%;
+	height: 74px;
+	float:left;
+}
+.ForDeviceCopy{
+	white-space:nowrap;
+}
+.SpaceBarButton
+{
+	height:100%;
+	width:90%;
+	padding-left:.5%;
+	padding-right:.5%;
+	white-space:pre;
+	margin-left:0%;
+	font-size:42px;
+	float:left;
+	
+}
+.Procedure_banner, .prompt, .blankMessage, .promptComma, .ReducePromt {
+	width:24%;
+	height:190px;
+	margin-left: 35%;
+    margin-top: 15%;
+}
+.enterText {
+ 
+    margin-top: 7%;
+    margin-left: 6%;
+    width: 86%;
+    text-align: center;
+	font-size: 56px;
+}
+.Cross_Img{
+	    width: 10%;
+    float: right;
+}
+
+.inputAndDoneSpace{
+	padding-top:2%;}
+.inputDiv{
+	width:100%;
+	
+ }
+.doneDiv {
+    width: 100%;
+    float: left;
+    height: 70px;
+}
+.calc_btn {
+	margin-top:3%;	
+	height: 52px;
+	font-size: 38px;
+}
+.ThreeCommonBtns{
+ height: 52px;
+ font-size: 32px;
+}
+.keypadKeys {
+    height: 220px;
+}
+.section4 {
+    width: 20%;
+    float: left;
+    display: inline-block;
+ }
+ .SolutionRemark{
+	 width:90%;
+ }
+ .keypadNoteDevice{
+	font-size:62px;
+}
+.keypadKeysDevice {
+    height: 410px;
+}
+.KeyPadKeyDevice {
+    height: 74px;
+    font-size: 54px;
+}
+.AreaForKeypadAndInputInDevice{
+	width:95%;
+	margin-left:5%;
+}
+.inputAndDoneSpaceFordevice{
+	width:100%;
+	display:inline-block;
+	margin-top:10px;
+}
+.input {
+    height: 88px;
+}
+.done1 {
+    height: 80px;
+    font-size: 46px;
+    width: 80%;
+}
+
+
+}

@@ -1,0 +1,46 @@
+$(document).ready(function(){
+						    
+						   var SpaceClick=0;
+						    
+						   $(".Stp1,.Stp2,.Stp3,.Stp4").hide();
+						   $(".Stp1").show();
+					 
+					 
+				
+						  
+						  $(".SpaceBarButton").click(function(){ 
+															   
+															   
+											SpaceClick++;				   
+															   
+												 
+										 
+												
+															  
+															  });
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+						  	 $(document).keydown(function(e){
+									
+									if( e.which==32){
+										 SpaceBarButton();
+									}
+									 
+								
+						  });
+					 
+					  
+				
+			 
+				
+					  
+						   });

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE"/>
+<meta name="viewport" content="width=device-width">
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/RFHC_baseForExample_V2.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/jquery-ui.min.js"></script>
+<script src="template_files/jquery/jquery.ui.touch-punch.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/baseForExample_V1.js"></script>
+<script src="template_files/jquery/middleForAll.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css"> 
+<script src="template_files/jquery/container_height.js"></script>
+</head>
+<body>
+
+<div class="warning">
+<div class="OrientImage"><img src="image/orientationExample.png" alt="Orientation Change" class="orient"/></div>
+</div>
+
+
+<div class="container-fluid">
+<div class="header">
+<div class="new_h">
+	<div class="section1"> <h3>Objective: <font color='#009'> Reduciable to pair of linear equation </font></h3></div> <!-- section1 closed-->
+    <div class="wholeSection">
+	<div class="section2">
+    	<input type="button" value="New Version" class="newSet headerButton" onClick="nextQuesGeneration()">
+        <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()">
+    </div><!-- section2 closed-->
+    <div class="section3">
+    	<div class="questionSection">
+            <div class="question"> 
+            	<div class="">
+                    <div>Determine, algebraically, the vertices of the triangle formed by the lines:</div>
+					<span class="whitepre b blue forDesk">   <span class="Equ1"></span>;     <span class="Equ2"></span>;     <span class="Equ3"></span></span>
+                    <div class="forpotrait tr b blue">
+						<div class="Equ1 whitepre"></div>
+                        <div class="Equ2 whitepre"></div>
+                        <div class="Equ3 whitepre"></div>
+                    </div>
+                    <div class="">Vertices of the triangle are:</div>
+                </div>
+                
+            <div class="inputAndDoneSpace">
+            <table class="InputAndDoneTbl">
+            <tr>
+            <td class="InptDnTd1 b red relative tc"> <b class="whitepre pink smalltext">( 1 Point )  </b>
+            </td>
+            <td class="InptDnTd2 b red relative tc"> <b class="whitepre pink smalltext">( 1 Point )  </b>
+            </td>
+            <td class="InptDnTd3 b red relative tc"> <b class="whitepre pink smalltext">( 1 Point )  </b>
+            </td>
+            <td class="InptDnTd4" rowspan="">
+                                    <div class="prompt_New blankMessage_New"><b>Enter the value.</b></div>
+         							<div class="prompt_New partialcorrect_New"><b>Partially Correct.</b></div>
+                                	<div class="prompt_New whatvalue"><b>What <span id="whatValue"></span>?</b></div>
+            						<div class="remark"><span class="incorrect">Incorrect!</span><span class="correct">Correct!</span></div>
+            </td>
+            </tr>
+
+            <tr>
+            <td class="InptDnTd1 relative">
+            <div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input1 input" id="inputText" style="text-transform:lowercase;" spellcheck="false" tabindex="1" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/> ;</div> 
+			<b class="red Wrng1 tick">&#10006;</b><b class="green Wrt1 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd2 relative"> 
+			<div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input2 input" id="inputText1" style="text-transform:lowercase;" spellcheck="false" tabindex="2" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/> ;</div> 
+            <b class="red Wrng2 tick">&#10006;</b><b class="green Wrt2 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd3 relative"> 
+            <div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input3 input" id="inputText2" style="text-transform:lowercase;" spellcheck="false" tabindex="3" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/>  </div> 
+            <b class="red Wrng3 tick">&#10006;</b><b class="green Wrt3 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd4 relative"> <div class="doneDiv"> <button class="done1" onClick="doneButton()" tabindex="3">Done</button> </div> </td>
+            </tr>
+
+
+
+            <!--<tr>
+            <td class="InptDnTd1 b blue tr"> <b class="whitepre Equ3"> </b> </td>
+            <td class="InptDnTd2"> 
+            </td>
+            <td class="InptDnTd3 b red relative"> <b class="whitepre pink smalltext">( 1 Point )</b>
+            <b class="red Wrng3 tick">&#10006;</b><b class="green Wrt3 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd4"> <div class="doneDiv"> <button class="done1" onClick="doneButton()" tabindex="3">Done</button> </div> </td>
+            </tr>-->
+            </table>
+            </div>
+            </div><!-- div question-->
+
+    
+            <div class="ClickToAnsDiv"> Click here to enter answer </div> 
+        </div>	<!-- questionSection closed-->
+      
+    </div>	<!-- section3 closed-->
+    </div>	<!-- wholeSection closed-->
+   
+</div>	<!-- new_h closed-->
+   
+    <div class="section4 KeypadArea">
+    	<div class="KeypadBoundary">
+        	<div class="keypadNote"><b>Use me to enter the answer</b></div>
+            <div class="keypadKeys">
+            
+                    <button class="calc_btn" value="1">1</button>
+                    <button class="calc_btn" value="2">2</button>
+                    <button class="calc_btn" value="3">3</button>
+                    <button class="calc_btn" value="4">4</button>
+                     
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    
+                    <button class="calc_btn" value="5">5</button>
+                    <button class="calc_btn" value="6">6</button>
+                    <button class="calc_btn" value="7">7</button>
+                    <button class="calc_btn" value="8">8</button>
+                    
+                    <button class="delete ThreeCommonBtns"  value="delete">Delete</button>
+                    
+                    <button class="calc_btn" value="9">9</button>  
+                    <button class="calc_btn" value="0">0</button>
+                    <button class="calc_btn subtract" id="comma" value="," data-value=", "><b>,</b></button>
+                    <button class="calc_btn subtract" id="minus" value="–" data-value="– "><b>–</b></button>
+                    <!--<button class="calc_btn subtract"  value="." data-value="."><b>•</b></button>
+                    <button class="calc_btn subtract hidden"  value=" ºC" data-value="ºC"><b>ºC</b></button>
+                    <button class="calc_btn subtract"  value="$" data-value="$"><b>$</b></button>-->
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                    <!--<button class="calc_btn subtract"  value=" a.m." data-value="a.m."><b>a.m.</b></button>
+                    <button class="calc_btn subtract"  value=" p.m." data-value="p.m."><b>p.m.</b></button>
+                    <button class="calc_btn subtract"  value=" noon" data-value="noon"><b>noon</b></button>-->
+                    <button class="calc_btn subtract tab ThreeCommonBtns"><b>Tab &nbsp; &#8644;</b></button>
+                    <!--<button class="calc_btn tab subtract ThreeCommonBtns"><b>Tab &nbsp; &#8644;</b></button>-->
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadBoundary closed-->
+        
+    </div>	<!-- section4 closed-->
+    
+</div>	<!-- header closed-->
+
+<div class="container">
+
+<div class="AreaForKeypadAndInputInDevice">
+    
+    <div class="KeypadBoundary KeyPadKeyBoundaryDevice">
+        	<div class="keypadNote keypadNoteDevice"><b>Use me to enter the answer</b></div>
+            <div class="keypadKeys keypadKeysDevice">
+            
+                    <button class="calc_btn KeyPadKeyDevice" value="1">1</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="2">2</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="3">3</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="4">4</button>
+                     
+                    <button class="back ThreeCommonBtns  KeyPadKeyDevice" value="back">Back</button>
+                    
+                    <button class="calc_btn KeyPadKeyDevice" value="5">5</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="6">6</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="7">7</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="8">8</button>
+                    
+                    <button class="delete ThreeCommonBtns KeyPadKeyDevice"  value="delete">Delete</button>
+                    
+                    <button class="calc_btn KeyPadKeyDevice" value="9">9</button>  
+                    <button class="calc_btn KeyPadKeyDevice" value="0">0</button>
+                    <button class="calc_btn subtract KeyPadKeyDevice" id="comma" value="," data-value=", "><b>,</b></button>
+                    <button class="calc_btn subtract KeyPadKeyDevice" id="minus" value="–" data-value="– "><b>–</b></button>
+                    <!-- <button class="calc_btn subtract KeyPadKeyDevice" value="." data-value="."><b>•</b></button>
+                    <button class="calc_btn subtract KeyPadKeyDevice hidden" value="$" data-value="$"><b>$</b></button>
+                  	<button class="calc_btn tab subtract ThreeCommonBtns"><b>Tab &nbsp; &#8644;</b></button>-->
+                    <button class="clear ThreeCommonBtns KeyPadKeyDevice" value="Clear">Clear</button>
+                  	 <button class="calc_btn tab subtract ThreeCommonBtns KeyPadKeyDevice"><b>Tab &nbsp; &#8644;</b></button>
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadBoundary closed-->
+        
+        <div class="inputAndDoneSpaceFordevice">
+        <table class="InputAndDoneTbl">
+            <tr>
+            <td class="InptDnTd1 b blue tr"> <!--<b class="whitepre Equ1"> </b>--> </td>
+            <td class="InptDnTd2 relative"> 
+            <div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input1 input" id="inputText" style="text-transform:lowercase;" spellcheck="false" tabindex="1" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/></div> 
+            <b class="red Wrng1 tick">&#10006;</b><b class="green Wrt1 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd3 b red relative"> <b class="whitepre pink smalltext">( 1 Point )</b>
+            </td>
+            
+            <td class="InptDnTd4" rowspan=""> </td>
+            </tr>
+
+
+            <tr>
+            <td class="InptDnTd1 b blue tr"> <!--<b class="whitepre Equ2"> </b>--> </td>
+            <td class="InptDnTd2 relative"> 
+<div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input2 input" id="inputText1" style="text-transform:lowercase;" spellcheck="false" tabindex="2" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/></div> 
+            <b class="red Wrng2 tick">&#10006;</b><b class="green Wrt2 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd3 b red relative"> <b class="whitepre pink smalltext">( 1 Point )</b>
+            </td>
+            <td class="InptDnTd4" rowspan="">
+                                    <div class="prompt_New blankMessage_New"><b>Enter the value.</b></div>
+         							<div class="prompt_New partialcorrect_New"><b>Partially Correct.</b></div>
+                                	<div class="prompt_New whatvalue"><b>What <span id="whatValue"></span>?</b></div>
+            						<div class="remark"><span class="incorrect">Incorrect!</span><span class="correct">Correct!</span></div>
+            </td>
+            </tr>
+
+
+            <tr>
+            <td class="InptDnTd1 b blue tr"> <!--<b class="whitepre Equ3"> </b>--> </td>
+            <td class="InptDnTd2 relative"> 
+<div class="inputDiv"><img src="image/RedLeftBracket.png" class="BracesL1"/><input type="text" class="input3 input" id="inputText2" style="text-transform:lowercase;" spellcheck="false" tabindex="3" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/><img src="image/RedRightBracket.png" class="BracesR1"/></div> 
+            <b class="red Wrng3 tick">&#10006;</b><b class="green Wrt3 tick">&#10004;</b>
+            </td>
+            <td class="InptDnTd3 b red relative"> <b class="whitepre pink smalltext">( 1 Point )</b>
+            </td>
+            <td class="InptDnTd4"> <div class="doneDiv"> <button class="done1" onClick="doneButton()" tabindex="3">Done</button> </div> </td>
+            </tr>
+            </table>
+        </div>
+    
+    </div><!-- AreaForKeypadAndInputInDevice -->
+
+
+
+		<div class="solutionContainer">
+    
+     
+	<div class="SolutionRemark"><div class="solutionText"><i>Solution</i>:</div>
+     <!--<div class="steps">    
+          <div class="StpBtnCmn step1">Step 1</div>
+          <div class="StpBtnCmn step2">Step 2</div>
+       </div>-->
+       
+    </div>
+    
+
+ 
+    
+ <div class="solutionMainSteps">
+		<div class="Step1_div middle">
+        	<div class="step11">
+            	<table class="SolTable11">
+                <tr class="">
+                <td colspan="2"> The vertex of the triangle is the common solution of the two equations forming its two sides. So solving the given equations pairwise will give the verices of the triangle. </td>
+                </tr>
+
+                <tr class="">
+                <td class="tr"> <b class="Equ1 whitepre"></b> </td>
+                <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+                </tr>
+
+                <tr class="">
+                <td class="tr"> <b class="Equ2 whitepre"></b> </td>
+                <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+                </tr>
+
+                <tr class="">
+                <td class="tr"> <b class="Equ3 whitepre"></b> </td>
+                <td> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span>  </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2"> By solving equation <b class="blue">(<i>i</i>)</b> and <b class="blue">(<i>ii</i>)</b>, we get </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2" class="tc"> 
+                        <div class="whitepre"> <b class="red"><i>x</i>  =  <b class="val1"></b></b>   and   <b class="red"><i>y</i>  =  <b class="val2"></b></b> <span class="fr PopDivBtn PopDivBtn1 box1"> Show Work </span> </div>
+                </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2"> So, one vertex of the triangle is <b class="red">(<b class="val1"></b>, <b class="val2"></b>)</b>. </td>
+                </tr>
+                </table>
+        	</div>
+            
+            <div class="step12">
+            	<table class="SolTable12">
+                <tr class="">
+                <td colspan="2"> Now solving equation <b class="blue">(<i>ii</i>)</b> and <b class="blue">(<i>iii</i>)</b> , we get </td>
+                </tr>
+
+                <td colspan="2" class="tc"> 
+                        <div class="whitepre"> <b class="red"><i>x</i>  =  <b class="val3"></b></b>   and   <b class="red"><i>y</i>  =  <b class="val4"></b></b> <span class="fr PopDivBtn PopDivBtn2"> Show Work </span> </div>
+                </td>
+
+                <tr class="">
+                <td colspan="2"> So, another vertex of the triangle is <b class="red">(<b class="val3"></b>, <b class="val4"></b>)</b>. </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2"> Now by solving equation <b class="blue">(<i>i</i>)</b> and <b class="blue">(<i>iii</i>)</b> , we get </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2" class="tc"> 
+                        <div class="whitepre"> <b class="red"><i>x</i>  =  <b class="val5"></b></b>   and   <b class="red"><i>y</i>  =  <b class="val6"></b></b> <span class="fr PopDivBtn PopDivBtn3"> Show Work </span> </div>
+                </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2"> So, the third vertex of the triangle is <b class="red">(<b class="val5"></b>, <b class="val6"></b>)</b>. </td>
+                </tr>
+
+                <tr class="">
+                <td colspan="2"> Therefore, the three vertices of the triangle are <b class="red whitepre">(<b class="val1"></b>, <b class="val2"></b>)</b>, <b class="red whitepre">(<b class="val3"></b>, <b class="val4"></b>)</b> and <b class="red whitepre">(<b class="val5"></b>, <b class="val6"></b>)</b>. </td>
+                </tr>
+                </table>
+            </div>
+		</div><!-- Step1 end -->
+        
+        
+
+</div><!-- solutionMainSteps end --> 
+
+    
+    </div>	<!-- solutionContainer closed-->
+</div>	<!-- container closed-->
+
+
+        <div class="PopDiv PopDiv1" title="drag to move">
+            <div class="crossDiv Cross_BM" title="Close"><img class="crossImg" src="image/crossImg1.png" /></div>
+            <table class="poptble1 poptble11">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>ii</i>)</b> from <b class="blue">(<i>i</i>)×3</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">9<i>x</i>  –  3<i>y</i>  =  9    </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)×3</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  –  3<i>y</i>  =  2    </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">–</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">7<i>x</i>  =  7    </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  1</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = 1 </b> in <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">3(1)  – <i>y</i>  =  3</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  0</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble12">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>ii</i>)</b> from <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre"><i>x</i>  +  2<i>y</i>  =  6    </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>   –    <i>y</i>  =  0    </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">–</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">3<i>y</i>  =  6    </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  2</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 2 </b> in <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre"><i>x</i>  – 2  =  0</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  2</b> </td>
+            </tr>
+            </table>
+            
+            
+            <table class="poptble1 poptble13">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">(<i>i</i>)×2</b> and <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">4<i>x</i>  –  2<i>y</i>  =  – 4</b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)×2</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  +  2<i>y</i>  =  4   </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">5<i>x</i>  =  0   </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  0</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = 0 </b> in <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">0  + 2<i>y</i>  =  4</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  2</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble14">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>ii</i>)</b> from <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">2<i>x</i>  +  3<i>y</i>  =  5   </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  –    <i>y</i>  =  1   </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">–</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">4<i>y</i>  =  4   </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  1</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 1 </b> in <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2<i>x</i>  +  3 (1) =  5</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  1</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble15">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">3×(<i>i</i>)</b> and <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">6<i>x</i>  +  3<i>y</i>  =  – 6  </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)×3</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">4<i>x</i>  –  3<i>y</i>  =  – 4  </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">10<i>x</i>  =  – 10</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  – 1</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = – 1 </b> in <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2(– 1)  +  <i>y</i>  =  – 2</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  0</b> </td>
+            </tr>
+            </table>
+        </div> <!--PopDiv1 closed-->
+
+
+
+
+
+        <div class="PopDiv PopDiv2" title="drag to move">
+            <div class="crossDiv Cross_BM" title="Close"><img class="crossImg" src="image/crossImg1.png" /></div>
+            <table class="poptble1 poptble11">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">2×(<i>iii</i>)</b> from <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">2<i>x</i>  –  3<i>y</i>  =  2     </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  +  4<i>y</i>  =  16   </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">–</span>
+                                <span class="txt3 txt">–</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)×2</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">– 7<i>y</i>  =  – 14</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  2</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 2 </b> in <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre"><i>x</i>  + 2(2)  =  8</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  4</b> </td>
+            </tr>
+            </table>
+            
+            <table class="poptble1 poptble12">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>iii</i>)</b> from <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre"><i>x</i>  –  <i>y</i>  =  0     </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  –  2<i>y</i>  =  2     </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">–</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre red"><i>y</i>  =  – 2  </b> </td>
+            <td class=""> <!--<b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  2</b>--> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = – 2 </b> in <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre"><i>x</i>  – (– 2)  =  0</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  – 2</b> </td>
+            </tr>
+            </table>
+            
+
+            <table class="poptble1 poptble13">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>iii</i>)</b> from <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre"><i>x</i>  +  2<i>y</i>  =  4     </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  –  3<i>y</i>  =  – 1  </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">+</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">5<i>y</i>  =  5     </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  1</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 1 </b> in <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre"><i>x</i>  + 2(1)  =  4</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  2</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble14">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">(<i>ii</i>)</b> and <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">2<i>x</i>  –  <i>y</i>  =  1     </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  +  <i>y</i>  =  – 1  </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">4<i>x</i>  =  0     </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  0</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = 0 </b> in <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2(0)  –  <i>y</i>  =  1</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  – 1</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble15">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">4×(<i>iii</i>)</b> from <b class="blue">(<i>ii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">4<i>x</i>  –  3<i>y</i>  =  – 4  </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>ii</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">4<i>x</i>  –  8<i>y</i>  =  – 24</b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">+</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)×4</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">5<i>y</i>  =  20   </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  4</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 4 </b> in <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre"><i>x</i>  –  2(4)  =  – 6</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  2</b> </td>
+            </tr>
+            </table>
+        </div> <!--PopDiv2 closed-->
+
+
+
+
+
+        <div class="PopDiv PopDiv3" title="drag to move">
+            <div class="crossDiv Cross_BM" title="Close"><img class="crossImg" src="image/crossImg1.png" /></div>
+            <table class="poptble1 poptble11">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">2×(<i>i</i>)</b> and <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">6<i>x</i>  –  2<i>y</i>  =  6    </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)×2</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  +  2<i>y</i>  =  8    </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">7<i>x</i>  =  14  </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  2</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = 2 </b> in <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2  + 2<i>y</i>  =  8</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  3</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble12">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">(<i>i</i>)</b> and <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre"><i>x</i>  +  2<i>y</i>  =  6 </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  –  2<i>y</i>  =  2 </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2<i>x</i>  =  8 </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  4</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = 4 </b> in <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">4  + 2<i>y</i>  =  6</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  1</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble13">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">2×(<i>iii</i>)</b> from <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">2<i>x</i>  –  <i>y</i>  =  – 2  </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  –  6<i>y</i>  =  – 2  </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">+</span>
+                                <span class="txt3 txt">+</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)×2</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">5<i>y</i>  =  0     </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  0</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 0 </b> in <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2<i>x</i>  –  0  =  – 2</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  – 1</b> </td>
+            </tr>
+            </table>
+
+            <table class="poptble1 poptble14">
+            <tr class="">
+            <td class="" colspan="3"> Subtracting <b class="blue">(<i>iii</i>)</b> from <b class="blue">(<i>i</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">2<i>x</i>  +  3<i>y</i>  =  5     </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre">2<i>x</i>  +   <i>y</i>  =  – 1  </b>
+                                <span class="txt1 txt">–</span>
+                                <span class="txt2 txt">–</span>
+                                <span class="txt3 txt">+</span>
+                                
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2<i>y</i>  =  6     </b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  3</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>y</i> = 3 </b> in <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">2<i>x</i>  +  3  =  – 1</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  – 2</b> </td>
+            </tr>
+            </table>
+
+
+            <table class="poptble1 poptble15">
+            <tr class="">
+            <td class="" colspan="3"> Adding <b class="blue">2×(<i>i</i>)</b> and <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td class="tr"> <b class="whitepre">4<i>x</i>  +  2<i>y</i>  =  – 4  </b></td>
+            <td> <span class="blue whitepre">........ <b>(<i>i</i>)×2</b></span>  </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr bb relative"> 
+            					<b class="whitepre"><i>x</i>  –  2<i>y</i>  =  – 6  </b>
+            </td>
+            <td class=""> <span class="blue whitepre">........ <b>(<i>iii</i>)</b></span> </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">5<i>x</i>  =  – 10</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>x</i>  =  – 2</b> </td>
+            </tr>
+            
+            <tr class="">
+            <td class="" colspan="3"> Putting <b class="whitepre"> <i>x</i> = – 2 </b> in <b class="blue">(<i>iii</i>)</b>, we get </td>
+            </tr>
+            
+            <tr>
+            <td> </td>
+            <td class="tr "> <b class="whitepre">(– 2)  –  2<i>y</i>  =  – 6</b> </td>
+            <td class=""> <b class="whitepre red">    <b class="pink">&rArr;</b>       <i>y</i>  =  2</b> </td>
+            </tr>
+            </table>
+        </div> <!--PopDiv3 closed-->
+
+
+
+
+<div class="footer">
+
+<table class="FooterTable">
+        <tr>
+          <td class="FtrTab_Td1" width="10%"><img src="image/print.png" class="print"/> </td>
+          <td class="FtrTab_Td2" width="10%"><img src="image/AutoRun.png" class="autorun"/></td>
+  <td class="FtrTab_Td3" width="50%"> <!--<div class="SpaceBarDiv"><button class="SpaceBarButton spacebar" onClick="spacebarClickFunction()">Click or Press Spacebar to Continue</button></div>--> </td>
+          <td class="FtrTab_Td4" width="30%"><div class="Copyright">Copyright © 2005 – 2019 <span class="ForDeviceCopy">Educo Int. Inc.</span></div></td>
+        </tr>
+</table>
+
+</div>	<!-- footer closed-->
+
+</div>		<!-- container-fluid closed-->
+</body>
+</html>
